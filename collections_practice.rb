@@ -73,7 +73,7 @@ def organize_schools(schools)
       if new_hash[value] == nil
         new_hash[value] = [school]
       else
-        new_hash[value] << 
+        new_hash[value] << school
         
     }
   }
