@@ -1,4 +1,4 @@
-# your code goes here
+c# your code goes here
 def begins_with_r(arr)
   arr.each{|ele| 
     if ele[0] != "r"
@@ -54,5 +54,24 @@ def merge_data(keys, data)
   keys.merge(data)
 end
 
-
+def find_cool(arr)
+  arr.each{|hash|
+    hash.each{|key, value|
+      if value == "cool"
+        return hash
+    }
+  }
+end  
+  let(:cool) {
+    [
+            {
+                   :name => "ashley",
+            :temperature => "sort of cool"
+        },
+            {
+                   :name => "blake",
+            :temperature => "cool"
+        }
+    ]
+  }
 
