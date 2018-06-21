@@ -39,7 +39,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-  
+  new_arr = arr.uniq
 end
 
 def merge_data(keys, data)
