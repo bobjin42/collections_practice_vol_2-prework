@@ -1,4 +1,4 @@
-c# your code goes here
+# your code goes here
 def begins_with_r(arr)
   arr.each{|ele| 
     if ele[0] != "r"
