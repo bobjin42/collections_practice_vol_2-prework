@@ -39,7 +39,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-
+  
 end
 
 def merge_data(keys, data)
