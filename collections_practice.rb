@@ -59,19 +59,9 @@ def find_cool(arr)
     hash.each{|key, value|
       if value == "cool"
         return hash
+      end
     }
   }
 end  
-  let(:cool) {
-    [
-            {
-                   :name => "ashley",
-            :temperature => "sort of cool"
-        },
-            {
-                   :name => "blake",
-            :temperature => "cool"
-        }
-    ]
-  }
+  
 
