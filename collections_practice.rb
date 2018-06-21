@@ -74,7 +74,9 @@ def organize_schools(schools)
         new_hash[value] = [school]
       else
         new_hash[value] << school
-        
+      end  
     }
   }
+  return new_hash
+end
   
