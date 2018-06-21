@@ -43,7 +43,7 @@ def count_elements(arr)
   new_arr = arr.uniq
   new_arr.each{|ele|
     counts = arr.count(ele)
-    list << {:name => ele, :count => counts}
+    list << {ele, :count => counts}
     counts = 0
   }
   return list
