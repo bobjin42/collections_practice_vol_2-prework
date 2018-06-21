@@ -55,13 +55,15 @@ def merge_data(keys, data)
 end
 
 def find_cool(arr)
+  new_arr = []
   arr.each{|hash|
     hash.each{|key, value|
       if value == "cool"
-        return hash
+        new_arr << hash
       end
     }
   }
+  return new_arr
 end  
   
 
