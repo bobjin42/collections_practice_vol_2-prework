@@ -71,7 +71,7 @@ def organize_schools(schools)
   schools.each{|school,data|
     data.each{|location, value|
       if new_hash[value] == nil
-        new_hash[value] == [school]
+        new_hash[value] = [school]
       else
         
     }
