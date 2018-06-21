@@ -40,6 +40,8 @@ end
 
 def count_elements(arr)
   new_arr = arr.uniq
+  new_arr.each{|ele|
+    
 end
 
 def merge_data(keys, data)
