@@ -39,7 +39,6 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-  {:name => "blake"}, {:name => "blake"}, {:name => "ashley"}
   list = []
   new_arr = arr.uniq
   new_arr.each{|ele|
