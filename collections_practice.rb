@@ -68,4 +68,5 @@ end
 
 def organize_schools(schools)
   new_hash = {}
-  schools.each{|
+  schools.each{|key,value|}
+  binding.pry
