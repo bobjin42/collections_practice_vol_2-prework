@@ -39,9 +39,15 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
+  list = []
   new_arr = arr.uniq
   new_arr.each{|ele|
-    
+    counts = arr.count(ele)
+    list << {:name => ele, :count => counts}
+    counts = 0
+  }
+  return list
+end
 end
 
 def merge_data(keys, data)
