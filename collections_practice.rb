@@ -51,7 +51,9 @@ end
 
 
 def merge_data(keys, data)
-  keys.merge(data){|key, old, new| 
+  data[0].values.map.with_index do |v, i|
+    keys[i].merge(v)
+  end
 end
 
 def find_cool(arr)
