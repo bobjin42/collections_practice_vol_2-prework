@@ -69,6 +69,6 @@ end
 def organize_schools(schools)
   new_hash = {}
   schools.each{|school,data|
-    
+    data.each{|
   }
   
