@@ -51,7 +51,7 @@ end
 
 
 def merge_data(keys, data)
-  keys.merge(data)
+  keys.merge(data){|key, old, new|
 end
 
 def find_cool(arr)
